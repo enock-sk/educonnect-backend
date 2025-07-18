@@ -1,11 +1,10 @@
-1 clone the repository
-cd educonnect-backend
- composer install 
-cp .env.example .env  
-
-php artisan key:generate
-
- edit the env  to configure your database and password for it
-  php artisan migrate
-  Php artisan serve
+## Set up instructions
+- clone the repository git clone{repository url}
+- navigate to the project folder on the terminal cd educonnect-backend
+- composer install 
+- cp .env.example .env  
+## Set up Database on .env 
+- php artisan key:generate
+- php artisan migrate
+- php artisan serve
   
